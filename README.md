@@ -1,6 +1,12 @@
 # Weather API Integration
 
-A full-stack weather lookup app built with Spring Boot (backend) and React (frontend). It fetches live weather data from the OpenWeather API and displays a clean, professional UI suitable for portfolio review and technical interviews.
+A full-stack weather lookup app built with Spring Boot (backend) and React (frontend). It fetches live weather data from the OpenWeather API and displays a clean, professional UI.
+
+## Demo Video 
+
+https://github.com/user-attachments/assets/cd288eaf-ae99-47a5-9185-b9e6a385bc38
+
+
 
 ## Highlights (Interview-Ready)
 - Clean separation of concerns: controller, service, and DTO-style entity

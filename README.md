@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/cd288eaf-ae99-47a5-9185-b9e6a385bc38
 
 
 
-## Highlights (Interview-Ready)
+## Highlights
 - Clean separation of concerns: controller, service, and DTO-style entity
 - REST API integration with error handling and JSON parsing
 - React UI with state management, loading states, and validation
@@ -36,40 +36,26 @@ https://github.com/user-attachments/assets/cd288eaf-ae99-47a5-9185-b9e6a385bc38
 
 2) Backend run:
 ```powershell
-Push-Location "D:\springall\weather-api-integration"
 .\mvnw spring-boot:run
-Pop-Location
 ```
 
 3) Frontend run:
 ```powershell
-Push-Location "D:\springall\weather-api-integration\frontend"
 npm install
 npm start
-Pop-Location
 ```
 
 ## Testing
 Backend:
 ```powershell
-Push-Location "D:\springall\weather-api-integration"
 .\mvnw test
-Pop-Location
 ```
 
 Frontend (optional):
 ```powershell
-Push-Location "D:\springall\weather-api-integration\frontend"
 $env:CI="true"
 npm test
-Pop-Location
 ```
-
-## What I Would Improve Next
-- Add caching to reduce repeated API calls
-- Replace `RestTemplate` with `WebClient`
-- Add unit tests for `WeatherService`
-- Add an error boundary and retry UI on the frontend
 
 ## Notes
 - `src/main/resources/application.properties` is gitignored to prevent exposing API keys.
